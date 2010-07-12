@@ -50,16 +50,39 @@ blockquote, q {
 
 
 /* 
-based on Stefan Nitzsche’s work
+HTML5 elements basic styling by Peter Kröner
+http://www.peterkroener.de/firefox-4-was-gibt-es-neues-fuer-webentwickler/
+*/
+
+command, datalist, source {
+  display: none;
+}
+article, aside, figure, figcaption, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+figure, menu {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+dl menu, menu dl, menu menu, menu ol, menu ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+/* 
+Useful basic stylings based on Stefan Nitzsche’s work
 http://nitzsche.info
 */
 
 html {
   height: 100%;
+  overflow:hidden;
 }
 
 body {
-  height: 101%;
+  height: 100%;
+  overflow-y: scroll;
   background-color: #fff;
 }
 
@@ -73,6 +96,10 @@ em, i {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
+}
+
+.ie7 address {
+  font-style: normal;
 }
 
 .hideme {
@@ -113,14 +140,6 @@ a abbr {
   visibility: hidden;
 }
 
-.ie7 address {
-  font-style: normal;
-}
-
-img { 
-  -ms-interpolation-mode: bicubic; 
-}
-
 .clearfix {
   display: inline-block;
 }
@@ -129,3 +148,7 @@ img {
   * html .clearfix { height: 1%; }
   .clearfix { display: block; }
 /* End hide from IE-mac */
+
+img { 
+  -ms-interpolation-mode: bicubic; 
+}
