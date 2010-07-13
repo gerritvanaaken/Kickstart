@@ -76,13 +76,10 @@ http://nitzsche.info
 */
 
 html {
-  height: 100%;
-  overflow:hidden;
+  overflow-y: scroll;
 }
 
 body {
-  height: 100%;
-  overflow-y: scroll;
   background-color: #fff;
 }
 
