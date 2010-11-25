@@ -14,3 +14,5 @@ document.createElement('summary');
 document.createElement('command');
 document.createElement('datalist');
 document.createElement('source');
+document.createElement('audio');
+document.createElement('video');
