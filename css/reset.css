@@ -1,72 +1,52 @@
 @charset 'utf-8';
 
-/* 
-CSS Reset by Eric Meyer
-http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/ 
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
-del, dfn, em, font, img, ins, kbd, q, s, samp,
+del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-weight: inherit;
-  font-style: inherit;
-  font-size: 100%;
-  font-family: inherit;
-  vertical-align: baseline;
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
 }
 body {
-  line-height: 1;
-  color: black;
-  background: white;
+	line-height: 1;
 }
 ol, ul {
-  list-style: none;
+	list-style: none;
 }
-/* tables still need 'cellspacing="0"' in the markup */
-table {
-  border-collapse: separate;
-  border-spacing: 0;
-}
-caption, th, td {
-  text-align: left;
-  font-weight: normal;
+blockquote, q {
+	quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: "";
+	content: '';
+	content: none;
 }
-blockquote, q {
-  quotes: "" "";
-}
-
-
-/* 
-HTML5 elements basic styling by Peter Kröner
-http://www.peterkroener.de/firefox-4-was-gibt-es-neues-fuer-webentwickler/
-*/
-
-command, datalist, source {
-  display: none;
-}
-article, aside, figure, figcaption, footer, header, hgroup, menu, nav, section, summary {
-  display: block;
-}
-figure, menu {
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-dl menu, menu dl, menu menu, menu ol, menu ul {
-  margin-top: 0;
-  margin-bottom: 0;
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
 
