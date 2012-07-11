@@ -29,3 +29,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+html {
+     overflow: -moz-scrollbars-vertical;
+     overflow: scroll;
+}
