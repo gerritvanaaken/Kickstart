@@ -10,7 +10,7 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+time, mark, audio, video, main {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -19,7 +19,7 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for shitty browsers */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+footer, header, hgroup, menu, nav, section, main {
 	display: block;
 }
 ol, ul {
@@ -30,6 +30,6 @@ table {
 	border-spacing: 0;
 }
 html {
-     overflow: -moz-scrollbars-vertical;
-     overflow: scroll;
+	overflow-y: -moz-scrollbars-vertical;
+	overflow-y: scroll;
 }
