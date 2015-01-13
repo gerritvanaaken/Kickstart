@@ -3,13 +3,18 @@
 /* ----------------------------------------------------- Browser specific CSS */
 
 .js div { } /* apply only on JavaScript enabled browsers */
-.ie7 div { } /* apply only on Internet Explorer 7 and below */
-.ie6 div { } /* apply only on Internet Explorer 6 and below */
+.ie8 div { } /* apply only on Internet Explorer 7 and below */
+.ie9 div { } /* apply only on Internet Explorer 6 and below */
 
-/* ----------------------------------------------------- smaller screens */
+/* ----------------------------------------------------- tabletish screens */
 
-@media only screen and (max-width: 640px) { }
 
-/* ----------------------------------------------------- huge screens */
+/* ----------------------------------------------------- smartphonish screens */
+@media only screen and (max-width: 767px) {
 
-@media only screen and (min-width: 1280px) { }
+}
+
+/* ----------------------------------------------------- desktopish screens */
+@media only screen and (min-width: 1024px) {
+
+}
