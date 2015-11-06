@@ -6,6 +6,9 @@ html {
 	overflow-y: -moz-scrollbars-vertical;
 	overflow-y: scroll;
 }
+body {
+    -webkit-text-size-adjust:none;
+}
 *, *::before, *::after {
 	margin: 0;
 	padding: 0;
